@@ -8,7 +8,7 @@ As an aspiring data scientist, I wanted to test my abililites by working on real
 
 ## Key Questions
 The main problem to tackle is a way to `increase Revenues`. To give viable answers to that, we first have to identify particular important variables.
-* Customer Segmentation &rarr; Aiming at optimizing the hospitality experience aimed towards a "mean Customer"
+* Customer/Market Segmentation &rarr; Aiming at optimizing the hospitality experience aimed towards a "mean Customer"
 * Cancellation Rates &rarr; Identify why to come up with countermeasures
 * Busiest Months/
   most cancellation in certain months &rarr; focus more/less resources in that specific time frame
