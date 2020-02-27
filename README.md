@@ -16,5 +16,23 @@ The main problem to tackle is a way to `increase Revenues`. To give viable answe
 ## Analysis
 First to work properly we have to clean the data a bit, filling in missing values for e.g. non-agency booking, and eliminating meaningless rows like those that contain not a single guest. 
 
-For starters, we take a look at the customer/market segmentation.<br>By analyzing the data following "stereotypical" guest has been identified:<br>`adult transient travelers, originating from the main european countries, on-the-move and looking for a quick stay-in.`
+### Stereotypical guest
+For starters, we take a look at the segmentation and booking channels.<br>By analyzing the data following "stereotypical" guest has been identified:<br>`adult transient travelers, originating from the main european countries, on-the-move and looking for a quick stay-in, favorably booking through a travel agency.`
 
+<img src="/plots/demographics.png" alt="demographics" width="400" height="275"/> <img src="/plots/booking_type.png" alt="booking_type" width="400" height="275"/>
+<img src="/plots/countries.png" alt="countries" width="400" height="275"/> <img src="/plots/travel_agencies.png" alt="agencies" width="400" height="275"/>
+
+### Cancellation Rate
+Next on the line is identifying the cancellation rate and its potential reasons to come up with countermeasures.<br>
+The current rate is at `41.79%` which is roughly <b>3% below</b> the average of 39%!<br>
+Potential reasons that were further looked at:
+* Too long waiting times until reservation confirmation
+* Low number of reoccuring guests 
+* Wrong room assignment rate too high
+<br><br><br>
+Longer waiting times and cancellations have a <b>clear positive correlation</b> as following plot suggests an increase of roughly <b>60%</b> of accumulated waiting time for cancelled bookings.<br>
+<img src="/plots/waiting_days.png" alt="waiting_days" width="450" height="275"/>
+
+The rate of reoccurring guest is about `2.5%` which is <b>5.5% below the average</b> of 8% (determined by deloitte study). But to be fair, this may also be due to the fact, that the main customers are transient travellers, so the actual industrial standard of that kind of hotel should be identified for further analysis.<br><br>
+Finally, I looked at the room assignment accuracy. How many of the guest did not get the room that they initially booked?<br>
+A whopping `8.94%` of the rooms were not delivered while checking in as promised when booking. 
