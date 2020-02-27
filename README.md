@@ -44,3 +44,18 @@ The question I asked myself was then: "<i>Which is the optimal staying length th
 "<br>
 To answer that I plotted 2 graphs indicating for each length of stay the share of guests that booked that time frame and the average ADR  they produced. The following results were returned. <br><br><br>
 <img src="/plots/staying_time_and_adr.png" alt="staying_time_and_adr" width="900" height="650"/>
+* Stays in the range of 1-4 days make about <b>85%</b> and have a constant average ADR of 100+
+* Other areas are higher in ADR but since they have minimal share of guests &rarr; can be overlooked
+* Confirming the tailoring towards transient travellers and shorter stays
+
+## Recommendation Steps
+* Increase overall satisfaction by tailoring the hospitality experience to the classified "average customer"
+  * lots of (small) rooms that are spontaneously ready and available
+  * Quick check-ins, check-outs
+  * Seamless booking process
+  * Special deals with most prominent travel agencies
+* Decrease cancellation rates by attacking the identified potential reasons
+  * Improve optimal room allocation processes
+  * Optimize reservation processes, e.g. implement a reservation RPA
+  * Invest in marketing and offer deals for past customers
+* Optimizie experience for shorter staying times to maximize average returns
