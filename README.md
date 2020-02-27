@@ -8,11 +8,13 @@ As an aspiring data scientist, I wanted to test my abililites by working on real
 
 ## Key Questions
 The main problem to tackle is a way to `increase Revenues`. To give viable answers to that, we first have to identify particular important variables based on actual guests (those who did not cancel, apart from cancellation questions of course). For instance, 
-* Customer/Market Segmentation &rarr; Tailoring the hospitality experience towards an "avg Customer" for maximum satisfaction rate
+* Customer/Market Segmentation &rarr; Tailoring the hospitality experience towards an "avg customer" for maximum satisfaction rate
 * Distribution Channels &rarr; Identify most frequently used distribution channel and the specific agencies
 * Cancellation Rates &rarr; Identify why to come up with countermeasures
 * Average Daily Rates &rarr; Find correlations in customer expenditures for the whole stay and determine optimal staying length (promote   these time frames with special offers)
 
 ## Analysis
 First to work properly we have to clean the data a bit, filling in missing values for e.g. non-agency booking, and eliminating meaningless rows like those that contain not a single guest. 
+
+For starters, we take a look at the customer/market segmentation.<br>By analyzing the data following "stereotypical" guest has been identified:<br>`adult transient travelers, originating from the main european countries, on-the-move and looking for a quick stay-in.`
 
