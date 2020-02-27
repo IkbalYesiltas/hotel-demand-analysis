@@ -25,10 +25,10 @@ For starters, I took a look at the segmentation and booking channels.<br>By anal
 ### Cancellation Rate
 Next on the line is identifying the cancellation rate and its potential reasons to come up with countermeasures.<br>
 The current rate is at `41.79%` which is roughly <b>3% below</b> the average of 39%!<br>
-Potential reasons that were further looked at:
+Potential reasons that I further investigated:
 * Too long waiting times until reservation confirmation
 * Low number of reoccuring guests 
-* Wrong room assignment rate too high
+* Too many wrong(different) room assignments
 <br><br><br>
 Longer waiting times and cancellations have a <b>clear positive correlation</b> as following plot suggests an increase of roughly <b>60%</b> of accumulated waiting time for cancelled bookings.<br>
 <img src="/plots/waiting_days.png" alt="waiting_days" width="450" height="275"/>
