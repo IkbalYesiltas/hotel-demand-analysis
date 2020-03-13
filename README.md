@@ -61,8 +61,8 @@ To answer that I plotted 2 graphs indicating for each length of stay the share o
 
 ## Bonus: Machine Learning model to predict whether a reservation will be cancelled or not
 ### Correlations and Approach (see code for further description)
-Since being cancelled is kind of a category, a Classification Algorithms is likely a good fit!
-Multiple models would be an appropiate choice, I have decided on the Random Forest algorithm, since it combines the simplicity of
+Since being cancelled is kind of a category, a <b>Classification Algorithms</b> is likely a good fit!
+Multiple models would be an appropiate choice, I have decided on the <b>Random Forest algorithm</b>, since it combines the simplicity of
 decision trees with sample flexibility and thus more accuracy!
 ### Preprocessing the dataset for the model
 Not all columns are included in the training set, as some are very insignficantly correlated to is_cancelled. 
