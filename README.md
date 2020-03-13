@@ -20,8 +20,7 @@ First to work properly I have to clean the data a bit, filling in missing values
 For starters, I took a look at the segmentation and booking channels.<br>By analyzing the data following "stereotypical" guest has been identified:<br>`adult transient travelers, originating from the main european countries, on-the-move and looking for a quick stay-in, favorably booking through a travel agency.`
 
 <img src="/plots/demographics.png" alt="demographics" width="400" height="275"/> <img src="/plots/booking_type.png" alt="booking_type" width="400" height="275"/>
-<img src="/plots/countries.png" alt="countries" width="400" height="275"/> <img src="/plots/travel_agencies.png" alt="agencies" width="400" height="275"/>
-
+<img src="/plots/countryPieChart.png" alt="countries" width="400" height="275"/> <img src="/plots/travel_agencies.png" alt="agencies" width="400" height="275"/> 
 ### Cancellation Rate
 Next on the line is identifying the cancellation rate and its potential reasons to come up with countermeasures.<br>
 The current rate is at `41.79%` which is roughly <b>3% below</b> the average of 39%!<br>
