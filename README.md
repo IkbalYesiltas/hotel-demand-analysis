@@ -59,8 +59,8 @@ To answer that I plotted 2 graphs indicating for each length of stay the share o
   * Invest in marketing and offer deals for past customers
 * Optimizie experience for shorter staying times to maximize average returns
 
-## Bonus: Machine Learning model to predict whether a reservation will be cancelled or not
-### Correlations and Approach (see code for further description)
+## Bonus: Machine Learning model to predict whether a reservation will be cancelled or not (see code for further description)
+### Correlations and Approach 
 Since being cancelled is kind of a category, a <b>Classification Algorithms</b> is likely a good fit!
 Multiple models would be an appropiate choice, I have decided on the <b>Random Forest algorithm</b>, since it combines the simplicity of
 decision trees with sample flexibility and thus more accuracy!
