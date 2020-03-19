@@ -47,7 +47,7 @@ To answer that I plotted 2 graphs indicating for each length of stay the share o
 * Other areas are higher in ADR but since they have minimal share of guests &rarr; can be overlooked
 * Confirming the tailoring towards transient travellers and shorter stays
 
-## Recommendation Steps
+## Recommended Steps
 * Increase overall satisfaction by tailoring the hospitality experience to the classified "average customer"
   * lots of (small) rooms that are spontaneously ready and available
   * Quick check-ins, check-outs
@@ -63,11 +63,11 @@ To answer that I plotted 2 graphs indicating for each length of stay the share o
 ### Correlations and Approach 
 Since being cancelled is kind of a category, a <b>Classification Algorithms</b> is likely a good fit!
 Multiple models would be an appropiate choice, I have decided on the <b>Random Forest algorithm</b>, since it combines the simplicity of
-decision trees with sample flexibility and thus more accuracy!
+decision trees with sample flexibility and thus yielding more accuracy!
 ### Preprocessing the dataset for the model
 Not all columns are included in the training set, as some are very insignficantly correlated to is_cancelled. 
 To train the model with the data, its categorical values must first be encoded into numerical ones. For this step, I simply used the get_dummies function from the pandas library that executes the job. 
 ### Standard model training
-Training the model with the standard portions of 70% Training and 30% Test yieled an accuracy score of roughly `86.9%`.
+Training the model with the standard portions of 70% Training and 30% Test returned an accuracy score of roughly `86.9%`.
 ### KFolds and Cross Validation
 To improve the accuracy, I tried the KFolds partitioning and cross validation. The improvement was, however, marginally small, with the accuracy score being `87,2%`
