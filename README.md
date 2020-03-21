@@ -68,6 +68,6 @@ Not all columns are included in the training set, as some are very insignficantl
 To train the model with the data, its categorical values must first be encoded into numerical ones. For this step, I simply used the get_dummies function from the pandas library that executes the job. 
 ### Decision Tree
 Training the model with the standard portions of 70% Training and 30% Test returned an accuracy score of roughly `82.23%`.
-### KFolds Cross Validation and Random Forest and Logistic Regression
+### KFolds Cross Validation - Random Forest and Logistic Regression
 To improve the accuracy, I tried the Random Forest Algorithm, that adds sample flexibility to the Decision Tree and therefore should yield an higher accuracy.And with `84,53%` it is indeed more precise. <br>
 To validate the previous assumption that classification algorithms are a better fit, I also trained a Logistic Regression model to showcase the difference by cross validation. <br> LR returned a score of `80,55%`, which was expectedly smaller than that of RF.
