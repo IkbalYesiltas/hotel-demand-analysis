@@ -61,13 +61,13 @@ To answer that I plotted 2 graphs indicating for each length of stay the share o
 
 ## Bonus: Machine Learning model to predict whether a reservation will be cancelled or not (see code for further description)
 ### Correlations and Approach 
-Since being cancelled is kind of a category, a <b>Classification Algorithms</b> is likely a good fit!
-Multiple models would be an appropiate choice, I have decided on the <b>Random Forest algorithm</b>, since it combines the simplicity of
-decision trees with sample flexibility and thus yielding more accuracy!
+Since being cancelled is kind of a category, a <b>Classification Algorithms</b> is likely a good fit (expected to have higher accuracy than other models)!
+Multiple models would be an appropiate choice, for starters, I have decided on the <b>Decision Tree algorithm</b>, because of its simplicity!
 ### Preprocessing the dataset for the model
 Not all columns are included in the training set, as some are very insignficantly correlated to is_cancelled. 
 To train the model with the data, its categorical values must first be encoded into numerical ones. For this step, I simply used the get_dummies function from the pandas library that executes the job. 
-### Standard model training
-Training the model with the standard portions of 70% Training and 30% Test returned an accuracy score of roughly `86.9%`.
-### KFolds and Cross Validation
-To improve the accuracy, I tried the KFolds partitioning and cross validation. The improvement was, however, marginally small, with the accuracy score being `87,2%`
+### Decision Tree
+Training the model with the standard portions of 70% Training and 30% Test returned an accuracy score of roughly `82.23%`.
+### KFolds Cross Validation and Random Forest and Logistic Regression
+To improve the accuracy, I tried the Random Forest Algorithm, that adds sample flexibility to the Decision Tree and therefore should yield an higher accuracy.And with `84,53%` it is indeed more precise. <br>
+To validate the previous assumption that classification algorithms are a better fit, I also trained a Logistic Regression model to showcase the difference by cross validation. <br> LR returned a score of `80,55%`, which was expectedly smaller than that of RF.
