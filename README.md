@@ -69,5 +69,5 @@ To train the model with the data, its categorical values must first be encoded i
 ### Decision Tree
 Training the model with the standard portions of 70% Training and 30% Test returned an accuracy score of roughly `82.23%`.
 ### KFolds Cross Validation - Random Forest and Logistic Regression
-To improve the accuracy, I tried the Random Forest Algorithm, that adds sample flexibility to the Decision Tree and therefore should yield an higher accuracy.And with `84,53%` it is indeed more precise. <br>
-To validate the previous assumption that classification algorithms are a better fit, I also trained a Logistic Regression model to showcase the difference by cross validation. <br> LR returned a score of `80,55%`, which was expectedly smaller than that of RF.
+To improve the accuracy, I tried the Random Forest Algorithm, that adds sample flexibility to the Decision Tree and therefore should yield an higher accuracy. With a 4-Fold cross validation score of `84,53%` it is indeed more precise. <br>
+I also trained a Logistic Regression model to compare it to the RF. <br> LR returned a score of `80,55%`, which is quite a bit smaller than that of RF.
